@@ -1,13 +1,24 @@
 <script>
+  import AppHeader from './components/AppHeader.vue';
+  import AppMain from './components/AppMain.vue';
+  import AppFooter from './components/AppFooter.vue';
+  export default{
+    name: 'App',
+    data(){
+      return{
 
+      }
+    },
+    components: {
+      AppHeader,
+      AppMain,
+      AppFooter,
+    }
+  }
 </script>
 
 <template>
-  <div>
-    <h1>
-      hello world
-    </h1>
-  </div>
+  <AppHeader/>
 </template>
 
 <style>
