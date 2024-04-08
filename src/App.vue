@@ -19,6 +19,7 @@
 
 <template>
   <AppHeader/>
+  <AppMain/>
 </template>
 
 <style>

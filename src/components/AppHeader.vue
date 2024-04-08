@@ -80,23 +80,26 @@ export default {
     }
 }
 
-.logo{
+.logo {
     text-align: center;
     padding: 1rem 0;
 }
 
-.menu{
-    ul{
+.menu {
+    ul {
+        width: 50%;
+        margin: auto;
         list-style: none;
         display: flex;
         gap: 2rem;
         justify-content: center;
         font-weight: 500;
 
-        li{
-            padding: 1rem 0;
+        li {
+            padding-bottom: 1rem;
         }
-        li:first-child{
+
+        li:first-child {
             color: var(--food-primary);
             border-bottom: 2px solid var(--food-primary);
         }
