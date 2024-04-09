@@ -14,3 +14,44 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.row {
+  display: flex;
+  margin: 0 -1rem;
+  flex-wrap: wrap;
+
+
+
+  .col-3 {
+    width: calc((100% / 12) * 3);
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .col-4 {
+    width: calc((100% / 12)*4);
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .col-6 {
+    width: calc((100%/12)*6);
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+  }
+
+  .col-8 {
+    width: calc((100%/12)*8);
+
+    img {
+      max-width: 100%;
+    }
+  }
+}

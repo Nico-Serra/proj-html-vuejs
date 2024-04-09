@@ -129,29 +129,35 @@ export default {
                         </div>
                     </div>
                     <div class="col-6 right_col">
-                        <div>
-                            <img src="/img/Mixed-fruits.jpg" alt="">
+                        <div class="col-6">
+                            <div class="card_image"><img src="/img/Mixed-fruits.jpg" alt=""></div>
                         </div>
-                        <div>
-                            <img src="/img/r-rachel-park-366508-unsplash-min.jpg" alt="">
+                        <div class="col-6">
+                            <div class="card_image"><img src="/img/r-rachel-park-366508-unsplash-min.jpg" alt=""></div>
                         </div>
-                        <div>
-                            <img src="/img/r-michelle-tsang-500721-unsplash-min.jpg" alt="">
+                        <div class="col-6">
+                            <div class="card_image"><img src="/img/r-michelle-tsang-500721-unsplash-min.jpg" alt="">
+                            </div>
                         </div>
-                        <div>
-                            <img src="/img/quick-summer-drink-460x295.jpg" alt="">
+                        <div class="col-6">
+                            <div class="card_image"><img src="/img/quick-summer-drink-460x295.jpg" alt=""></div>
                         </div>
-                        <div>
-                            <img src="/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt="">
+                        <div class="col-6">
+                            <div class="card_image"><img
+                                    src="/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt=""></div>
                         </div>
-                        <div>
-                            <img src="/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <div class="col-6">
+                            <div class="card_image"><img src="/img/perfect-cosmopolitan-460x295.jpg" alt=""></div>
                         </div>
-                        <div>
-                            <img src="/img/fi2x-6-460x295.jpg" alt="">
+                        <div class="col-6">
+                            <div class="card_image">
+                                <img src="/img/fi2x-6-460x295.jpg" alt="">
+                            </div>
                         </div>
-                        <div>
-                            <img src="/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="">
+                        <div class="col-6">
+                            <div class="card_image">
+                                <img src="/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -652,47 +658,6 @@ main {
         }
     }
 
-    .row {
-        display: flex;
-        margin: 0 -1rem;
-        flex-wrap: wrap;
-
-
-
-        .col-3 {
-            width: calc((100% / 12) * 3);
-
-            img {
-                max-width: 100%;
-            }
-        }
-
-        .col-4 {
-            width: calc((100% / 12)*4);
-
-            img {
-                max-width: 100%;
-            }
-        }
-
-        .col-6 {
-            width: calc((100%/12)*6);
-
-            img {
-                max-width: 100%;
-                display: block;
-            }
-        }
-
-        .col-8 {
-            width: calc((100%/12)*8);
-
-            img {
-                max-width: 100%;
-            }
-        }
-    }
-
     .recipes {
         padding-top: 2.5rem;
         width: 70%;
@@ -750,10 +715,9 @@ main {
 
 
 
-            div {
-                width: 50%;
+            .card_image {
+                
                 padding: 1rem;
-                margin: 0 -1rem;
             }
 
 
@@ -1124,7 +1088,7 @@ main {
         }
     }
 
-    .subscribe{
+    .subscribe {
         margin-top: 2rem;
         height: 500px;
         background-color: var(--food-lighter);
@@ -1134,26 +1098,26 @@ main {
         align-items: center;
         justify-content: center;
 
-        .ebook{
+        .ebook {
             width: 50%;
             margin: auto;
             text-align: center;
 
-            h2{
+            h2 {
                 font-family: "PT Serif", serif;
 
-                span{
+                span {
                     color: var(--food-primary);
                 }
             }
 
-            .email{
+            .email {
                 display: flex;
                 justify-content: center;
                 gap: 1rem;
                 padding: 2rem 0;
 
-                input{
+                input {
                     flex-grow: 1;
                     border: 1px solid lightgray;
                     padding: 0.8rem;
@@ -1161,12 +1125,12 @@ main {
                     border-radius: 5px;
                 }
 
-                button{
+                button {
                     background-color: var(--food-primary);
-                        border: none;
-                        color: var(--food-lighter);
-                        text-transform: uppercase;
-                        padding: 0.8rem;
+                    border: none;
+                    color: var(--food-lighter);
+                    text-transform: uppercase;
+                    padding: 0.8rem;
                 }
             }
         }
