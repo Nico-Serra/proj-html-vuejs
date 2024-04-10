@@ -40,8 +40,19 @@ export default {
                     <div class="row">
                         <div class="col-4">
                             <div class="top_image">
-                                <img src="/img/single-post-img3.jpg" alt="">
+                                <div class="image_card">
+                                    <img src="/img/single-post-img3.jpg" alt="">
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Food Corner: Top Japanese Restaurants for Sushi
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
+
                             <div class="food_description">
                                 <p>
                                     Food Corner: Top Japanese Restaurants for Sushi
@@ -53,7 +64,17 @@ export default {
                         </div>
                         <div class="col-4">
                             <div class="top_image">
-                                <img src="/img/fi-roundup.jpg" alt="">
+                                <div class="image_card">
+                                    <img src="/img/fi-roundup.jpg" alt="">
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Roundup: My new favourite Recipes For Healty Living
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="food_description">
                                 <p>
@@ -66,7 +87,17 @@ export default {
                         </div>
                         <div class="col-4">
                             <div class="top_image">
-                                <img src="/img/fi-toasts.jpg" alt="">
+                                <div class="image_card">
+                                    <img src="/img/fi-toasts.jpg" alt="">
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Why These Toast with Tea aree Ny New Favorite
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="food_description">
                                 <p>
@@ -99,7 +130,17 @@ export default {
                     <div class="col-6 left_col">
                         <div class="card">
                             <div class="top_image">
-                                <img src="/img/Yogurt-Nan.jpg" alt="">
+                                <div class="image_card">
+                                    <img src="/img/Yogurt-Nan.jpg" alt="">
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Lunch Favourite with Salad, Naan And Beans
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="image_description">
                                 <h4>
@@ -130,33 +171,130 @@ export default {
                     </div>
                     <div class="col-6 right_col">
                         <div class="col-6">
-                            <div class="card_image"><img src="/img/Mixed-fruits.jpg" alt=""></div>
-                        </div>
-                        <div class="col-6">
-                            <div class="card_image"><img src="/img/r-rachel-park-366508-unsplash-min.jpg" alt=""></div>
-                        </div>
-                        <div class="col-6">
-                            <div class="card_image"><img src="/img/r-michelle-tsang-500721-unsplash-min.jpg" alt="">
+                            <div class="small_card">
+                                <div class="image_card">
+                                    <img src="/img/Mixed-fruits.jpg" alt="">
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Fruit Platter with Banana, Mango, Berries and Orange
+                                        </p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="card_image"><img src="/img/quick-summer-drink-460x295.jpg" alt=""></div>
-                        </div>
-                        <div class="col-6">
-                            <div class="card_image"><img
-                                    src="/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt=""></div>
-                        </div>
-                        <div class="col-6">
-                            <div class="card_image"><img src="/img/perfect-cosmopolitan-460x295.jpg" alt=""></div>
-                        </div>
-                        <div class="col-6">
-                            <div class="card_image">
-                                <img src="/img/fi2x-6-460x295.jpg" alt="">
+                            <div class="small_card">
+
+                                <div class="image_card">
+                                    <img src="/img/r-rachel-park-366508-unsplash-min.jpg" alt="">
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            English Breakfast
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="card_image">
-                                <img src="/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="">
+                            <div class="small_card">
+                                <div class="image_card">
+                                    <img src="/img/r-michelle-tsang-500721-unsplash-min.jpg" alt="">
+
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Dessert
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="small_card">
+                                <div class="image_card">
+                                    <img src="/img/quick-summer-drink-460x295.jpg" alt="">
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Summer-drink
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="small_card">
+                                <div class="image_card">
+                                    <img src="/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt="">
+
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Tomato, Avocado & ...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="small_card">
+                                <div class="image_card">
+                                    <img src="/img/perfect-cosmopolitan-460x295.jpg" alt="">
+
+
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Perfect-Cosmopolitan
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="small_card">
+                                <div class="image_card">
+                                    <img src="/img/fi2x-6-460x295.jpg" alt="">
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Fruits
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="small_card">
+                                <div class="image_card">
+                                    <img src="/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="">
+
+                                    <div class="food_description_hover">
+                                        <div class="circle">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                        <p>
+                                            Jam Tart & Tea
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -547,7 +685,7 @@ export default {
                 <div class="row">
                     <div class="col-3"><img src="/img/Yogurt-Nan.jpg" alt=""></div>
                     <div class="col-3"><img src="/img/Mixed-fruits.jpg" alt=""></div>
-                    <div class="col-3"><img src="/img/fi-toasts.jpg" alt=""></div>
+                    <div class="col-3"> <img src="/img/r-rachel-park-366508-unsplash-min.jpg" alt=""></div>
                     <div class="col-3"><img src="/img/r-michelle-tsang-500721-unsplash-min.jpg" alt=""></div>
                 </div>
             </div>
@@ -620,6 +758,13 @@ main {
 
             .top_image {
                 padding: 1rem;
+                position: relative;
+
+                img {
+                    display: block;
+                }
+
+
             }
 
             .top_text {
@@ -641,6 +786,9 @@ main {
 
             }
 
+
+
+
             .food_description {
                 font-family: "PT Serif", serif;
 
@@ -654,6 +802,18 @@ main {
                     font-size: 10px;
                     color: var(--food-dark);
                 }
+            }
+        }
+
+        .top_image:hover {
+            .food_description_hover {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            img {
+                opacity: 0.2;
             }
         }
     }
@@ -683,6 +843,18 @@ main {
 
             .card {
                 padding: 1rem;
+
+                .image_card:hover {
+                    .food_description_hover {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    img {
+                        opacity: 0.2;
+                    }
+                }
 
                 .image_description {
                     padding: 1rem 2rem;
@@ -715,11 +887,26 @@ main {
 
 
 
-            .card_image {
-                
+            .small_card {
+
                 padding: 1rem;
             }
 
+            .small_card:hover {
+                .food_description_hover {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    p {
+                        font-size: 10px;
+                    }
+                }
+
+                img {
+                    opacity: 0.2;
+                }
+            }
 
 
 
@@ -753,11 +940,23 @@ main {
                 .card_info {
                     background-color: var(--food-lighter);
                     text-align: center;
-                    padding: 1rem 2rem;
+
+                    img{
+                        width: 50%;
+                    }
+                    
 
                     .text_card {
                         text-transform: uppercase;
+                        padding: 0.5rem
                     }
+                }
+            }
+
+            .card:hover{
+                .text_card{
+                    background-color: var(--food-primary);
+                    color: var(--food-lighter);
                 }
             }
         }
@@ -1005,18 +1204,21 @@ main {
 
             .tweets {
                 padding: 1rem;
+                
 
                 .card {
                     background-color: var(--food-lighter);
                     padding: 0.5rem 1rem;
                     font-size: 14px;
                     padding: 1rem;
+                    border-radius: 5px;
+                    
 
                     .card_title {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        padding: 1rem 0;
+                        padding-bottom: 0.5rem;
 
                         .name_tweet {
                             display: flex;
@@ -1131,6 +1333,46 @@ main {
                     color: var(--food-lighter);
                     text-transform: uppercase;
                     padding: 0.8rem;
+                }
+            }
+        }
+    }
+
+    /* hover */
+    .image_card {
+        background-color: var(--food-primary);
+        position: relative;
+
+        .food_description_hover {
+            display: none;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index: 100;
+            transform: translate(-50%, -50%);
+            color: var(--food-lighter);
+            font-family: "PT Serif", serif;
+
+
+            p {
+                font-weight: 500;
+            }
+
+            .circle {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background-color: var(--food-lighter);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                i {
+                    opacity: 1;
+                    color: var(--food-dark);
+                    font-size: 14px;
                 }
             }
         }
